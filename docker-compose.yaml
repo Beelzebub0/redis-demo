@@ -6,3 +6,5 @@ services:
     image: redis:6
     ports:
       - 6379:6379
+    volumes:
+      - ./command:/usr/local/etc/command
